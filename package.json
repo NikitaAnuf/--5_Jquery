@@ -1,0 +1,7 @@
+{
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "jquery-modal": "^0.9.2"
+  }
+}

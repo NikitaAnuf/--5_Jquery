@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" href = "style.css">
+		<link rel="stylesheet" href="../node_modules/jquery-modal/jquery.modal.min.css" />
+		<title>Практическая работа 5 | JQuery</title>
+	</head>
+
+	<body>
+
+		<div id="ex1" class="modal">
+			<p>Простейшее модальное окно на JQuery</p>
+			<img src = "../Картинки/rick-astley.jpg" class = "modalIMG">
+		</div>
+		  
+
+		<button class = "buttonPosition"><a href="#ex1" rel="modal:open">Модальное окно</a></button>
+
+		<div id="viewport">
+
+			<div class="slider" style="left: 0">
+
+				<div class="slide"><img src="../Картинки/cat1.jpg" alt=""></div>
+				<div class="slide"><img src="../Картинки/cat2.jpg" alt=""></div>
+				<div class="slide"><img src="../Картинки/cat3.jpg" alt=""></div>
+				<div class="slide"><img src="../Картинки/cat4.jpg" alt=""></div>
+
+			</div>
+
+		</div>
+	 
+		<div style = "display: flex; justify-content: center; margin: 20px;">
+
+			<button class="prev">Назад</button>
+			<button class="next">Вперёд</button>
+			
+		</div>
+
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+		<script src="../node_modules/jquery-modal/jquery.modal.min.js"></script>
+		<script src = "script.js"></script>
+	</body>
+
+</html>
